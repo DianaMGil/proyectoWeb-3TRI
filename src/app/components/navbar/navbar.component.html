@@ -1,35 +1,64 @@
 
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">PEGAR LOGO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">HOME <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SERVICIOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">EQUIPO</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark"> <!-- fixed-top > antes de bg -->
+  <div class="container-fluid">
+   <img id="logo-navbar" src="./assets/img/logoCuadrado.png" alt="Logo" width="140" height="110" class="d-inline-block align-text-top">
+  
+   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-  </nav>
+
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">SERVICIOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">NUESTRO EQUIPO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">CENTRO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">VEN A PROBAR!! </a>
+        </li>
+        <!-- MENOS OSCURO EL COLOR PERO SE RESALTA CUANDO CURSOR POR ENCIMA
+           <li class="nav-item">
+          <a class="nav-link" href="#">SERVICIOS</a>
+        </li> -->
+      </ul>
+       <!--
+    
+
+   BARRA BUSCADOR  <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+
+  <a href="mailto:info@sportcentermarva.com" title="Dirección de email para solicitar
+más información">QUIERS MÁS INFORMACIÓN? </a>
+  
+  -->
+    
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
