@@ -1,0 +1,43 @@
+{
+    "gimnasio": {
+
+      "nombre": "Marva Sport Center",
+      "servicios": [
+        {
+          "nombre": "Entrenamiento Personal",
+          "descripcion": "Sesiones individuales de entrenamiento",
+          "precio": "Desde 25€"
+        },
+        {
+          "nombre": "Entrenamiento personal en Grupo Reducido",
+          "descripcion": "Sesiones de entrenamiento con un máximo de 4 personas",
+          "precio": "Desde 16€ por sesión"
+        },
+        {
+          "nombre": "Entrenamientos grupales",
+          "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
+          "precio": "Desde 10€ por clase "
+        },
+        {
+          "nombre": "Fisioterapia",
+          "descripcion": "Rehabilitación, Readaptación, tratamiento del dolor o Ejercicio terapeutico ",
+          "precio": "Desde 25€ por sesión"
+        },
+        {
+            "nombre": "Nutrición",
+            "descripcion": "Menus semanales, valoración alimentación",
+            "precio": "30€ por sesión"
+        },
+        {
+            "nombre": "Acceso Libre",
+            "descripcion": "",
+            "precio": "7€ por acceso"
+        }
+      ]
+
+
+
+    }
+  }
+  
+  
