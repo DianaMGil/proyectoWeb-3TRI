@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Servicios } from '../../common/servicios';
 import { DataServiciosService } from '../../data/data-Servicios.service';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 
 @Component({
   selector: 'app-servicios',
   standalone: true,
-  imports: [],
+  imports: [RouterLink,RouterLinkActive],
   templateUrl: './servicios.component.html',
   styleUrl: './servicios.component.css'
 })

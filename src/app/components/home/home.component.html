@@ -2,65 +2,37 @@
 
 <br>
 
-
 <!-- banner -->
 <section>
 <style>
         /* Establece la imagen de fondo BANNER */
-        #bg-img {
+        .bg-img {
           background-image: url('./assets/img/fondo_Banner.png');
           background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
           background-position: center; /* Centra la imagen */
-          height: 80vh; /* Establece la altura del contenedor al 100% del viewport */
+          height: 100%; /* Establece la altura del contenedor al 100% del viewport */
         }
       </style>
 
-<div id="bg-img">
+<div class="bg-img p-4 my-5" >
      <!-- divide las dos partes del banner -->
-    <div class="container overflow-hidden text-center">
+    <div class="container overflow-hidden text-center ">
         <!-- espacio horizontal de tamaño 5 entre las columnas dentro de la fila.  -->
-        <div class="row gx-5">
+        <div class="row gx-20">
 
             <div class="col">
-                <div class="bannerMessage p-3">
-                    <h3 class="title " style="width: 18rem;" >BIENVENIDO A  </h3>
+                <div class="bannerMessage p-5">
+                    <h1 class="display-5">BIENVENIDO A  </h1>
                     <img src="https://www.sportcentermarva.com/wp-content/uploads/2022/02/LOGO-MARVA4.svg" > 
-                    <h4 class="card-text fs-4 ">Centro de Entrenamiento, Fisioterapia y Nutrición</h4> 
+                    <h4 class="fs-4 ">Centro de Entrenamiento, Fisioterapia y Nutrición</h4> 
                 </div>
             </div>
 
             <div class="col">
-                <div class="p-3">
-                    <form>
-                        <h5>OBTÉN LA PRIMERA RESERVA GRATUITA</h5>
-                        <div class="row g-3 mb-3"> <!--g <espacion entre nombre-apellidos>   mb < marginBotom > -->
-                            <div class="col">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
-                            </div>
-                            <div class="col ">
-                            <input type="text" class="form-control" placeholder="Apellidos" aria-label="Last name" required>
-                            </div>
-                        </div>
-                        <div class="form-group mb-3">
-                        <input type="email" class="form-control" placeholder="Correo electrónico" required>
-                        </div>
-                        <div class="form-group mb-3">
-                        <input type="tel" class="form-control" placeholder="Teléfono">
-                        </div>
-                        <div class="form-group mb-3">
-                        <select class="form-control">
-                            <option value="">¿Cómo has llegado hasta aquí?</option>
-                            <option value="busqueda">Google</option>
-                            <option value="redes-sociales">Redes Sociales</option>
-                            <option value="recomendacion">Recomendación amigo/familiar</option>
-                            <option value="otro">Vivo/Trabajo cerca</option>
-                        </select>
-                        </div>
-                        <div class="form-group mb-3">
-                        <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
+                <div class="p-5">
+                    
+                        <app-formulario> </app-formulario>
+
                     </div>
                 </div>
 
