@@ -1,0 +1,24 @@
+Cambiar el color de los controles de navegación
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #fff;
+  }
+  
+  /* Cambiar el color del fondo de los controles de navegación */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo para la barra de progreso */
+  .carousel-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #007bff; /* Cambiar el color según tu diseño */
+    z-index: 999;
+  }
+
+  
