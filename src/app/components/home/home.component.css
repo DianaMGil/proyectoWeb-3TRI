@@ -5,5 +5,17 @@
 .fs-4{
     font-family:'Open Sans Condensed', sans-serif;
     color: aliceblue;
-
 }
+
+.CaracteristicasIconos {
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+}
+
+
+.CaracteristicasSection {
+    background-color: #F2F2F2;
+}
+
+
