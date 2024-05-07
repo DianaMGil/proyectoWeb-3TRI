@@ -12,10 +12,10 @@ Cambiar el color de los controles de navegación
   
   /* Estilo para la barra de progreso */
   .carousel-progress {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 3px;
     background-color: #007bff; /* Cambiar el color según tu diseño */
     z-index: 999;
