@@ -16,6 +16,21 @@
 
 .CaracteristicasSection {
     background-color: #F2F2F2;
+    margin-bottom: 3em;
 }
 
 
+/* CUSTOMIZE THE CAROUSEL
+---
+.----------------------------------------------- */
+
+.google
+{
+  margin-top: 10%;
+  align-items: center;
+}
+
+.bd-placeholder-img.bd-placeholder-img-lg.d-block.w-100
+{
+border-radius: 20%;
+}

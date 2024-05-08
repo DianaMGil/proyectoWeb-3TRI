@@ -5,11 +5,14 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { FooterComponent } from './components/footer/footer.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { InstalacionesComponent } from './components/instalaciones/instalaciones.component';
 
 export const routes: Routes = [
 
-    {path:'home', title:'Home', component:HomeComponent},
+    {path:'home', title:'Inicio', component:HomeComponent},
     {path:'servicios', title:'Servicios', component:ServiciosComponent},
+    {path:'instalaciones', title:'Instalaciones', component:InstalacionesComponent},
+
     {path:'formulario', title:'Formulario', component:FormularioComponent},
 
     
