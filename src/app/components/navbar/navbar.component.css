@@ -1,3 +1,8 @@
 #logo-navbar{
     border-radius: 50%;
-}   
+} 
+.navbar.navbar-expand-lg {
+    background-color: #1E277C;
+    font-weight: 700;
+    font-size: 1.2em;
+}  
