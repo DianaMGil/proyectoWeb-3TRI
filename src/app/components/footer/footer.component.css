@@ -1,6 +1,24 @@
+/* Css Datos Contacto */
+
+.DatosContacto {
+    margin-top: 3em;
+    background-color: #F2F2F2;
+}
+
+.DatosContactoDiv {
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+}
+
+p.ParrafoTelefono {
+    line-height: 0.1;
+}
+
+/* Css Footer */
+
 footer {
     background-color: #19191A;
-    margin-top: 3em;
 }
 
 hr {
