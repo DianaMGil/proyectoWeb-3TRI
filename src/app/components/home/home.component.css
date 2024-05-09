@@ -23,14 +23,7 @@
 /* CUSTOMIZE THE CAROUSEL
 ---
 .----------------------------------------------- */
+.carousel-serviciosdestacados{
 
-.google
-{
-  margin-top: 10%;
-  align-items: center;
-}
-
-.bd-placeholder-img.bd-placeholder-img-lg.d-block.w-100
-{
-border-radius: 20%;
+    margin-bottom: 3em;
 }
