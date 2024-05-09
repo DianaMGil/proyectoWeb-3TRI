@@ -1,0 +1,10 @@
+.btn.btn.btn-primary{
+    background-color: #1E277C;
+}
+
+.Formulario {
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
