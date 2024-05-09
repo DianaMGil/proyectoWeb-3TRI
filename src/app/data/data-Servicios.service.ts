@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Servicios } from '../common/servicios';
+import { Servicio, Servicios } from '../common/servicios';
 
 @Injectable({
   providedIn: 'root'
@@ -16,9 +16,7 @@ export class DataServiciosService {
       }
 
   // función para comunicar con datos .Json >> funcion que se llamará en componenete servicios
-  getobtenerServicios():
-  
-    Observable<Servicios>
+  getobtenerServicios(): Observable<Servicios>
     {
       return this.http.get<Servicios>('./assets/data/serviciosGym.json')
     }
