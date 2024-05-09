@@ -9,13 +9,14 @@
           "Duracion": "30-60 min"
         },
         {
-          "nombre": "Entrenamientos grupales",
+          "nombre": "Training",
           "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
-          "Duracion": "30-60 min",
-          "entrenamientos":
-          [
-            "TRAINING", "MIT"
-          ]
+          "Duracion": "30-60 min"
+        },
+        {
+          "nombre": "MIT",
+          "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
+          "Duracion": "30-60 min"
         },
         {
           "nombre": "Fisioterapia",

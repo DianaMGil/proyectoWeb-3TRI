@@ -1,7 +1,25 @@
 /* Css Datos Contacto */
 
+.OfertaEspecial {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5em;
+}
+
+.OfertaEspecial h1 {
+    font-size: 4em;
+}
+
+.Mensualidad {
+    font-size: 2em;
+}
+
+.CaracteristicasOferta p {
+    font-size: 1.5em;
+}
+
 .DatosContacto {
-    margin-top: 3em;
     background-color: white;
 }
 
