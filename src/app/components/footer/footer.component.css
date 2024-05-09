@@ -78,6 +78,12 @@ hr {
     float: right;
 }
 
+.Whatsapp {
+    position: fixed;
+    right: 3em;
+    bottom: 3em;
+    border-radius: 50%;
+}
 
 /* .btn-round {
     border-radius: 50%;
