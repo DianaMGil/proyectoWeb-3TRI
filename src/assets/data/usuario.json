@@ -1,0 +1,42 @@
+{
+    "usuarios": [
+      {
+        "Nombre": "Ana",
+        "Apellidos": "García López",
+        "Correo": "ana.garcia@example.com",
+        "Telefono": "+1234567890",
+        "Como_llegado_aqui": "Redes sociales",
+        "Mensaje": "Contacto con el centro para obtener información más detallada sobre los servicios"
+      },
+      {
+        "Nombre": "Juan",
+        "Apellidos": "Martínez Pérez",
+        "Correo": "juan.martinez@example.com",
+        "Telefono": "+1987654321",
+        "Como_llegado_aqui": "Recomendación amigo/familiar",
+        "Mensaje": "Me gustaría recibir más información sobre el plan de entrenamiento personalizado."
+      },
+      {
+        "Nombre": "María",
+        "Apellidos": "Rodríguez Sánchez",
+        "Correo": "maria.rodriguez@example.com",
+        "Telefono": "+1122334455",
+        "Como_llegado_aqui": "Vivo/Trabajo cerca",
+        "Mensaje": "Quisiera saber si ofrecen descuentos para estudiantes universitarios."
+      },{
+        "Nombre": "Carlos",
+        "Apellidos": "Gutiérrez Pérez",
+        "Correo": "carlos.gutierrez@example.com",
+        "Telefono": "+1555098765",
+        "Como_llegado_aqui": "Google",
+        "Mensaje": "Me interesa conocer los horarios de las clases de spinning."
+      },{
+        "Nombre": "Laura",
+        "Apellidos": "Martín García",
+        "Correo": "laura.martin@example.com",
+        "Telefono": "+1777089643",
+        "Como_llegado_aqui": "Redes sociales",
+        "Mensaje": "¿Ofrecen alguna promoción para nuevos miembros?"
+      }
+    ]
+  }
