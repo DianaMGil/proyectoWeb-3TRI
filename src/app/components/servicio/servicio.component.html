@@ -2,20 +2,20 @@
 <br>
 <br>
 <br>
-<div style="margin-top: 20px;">
+<div style="margin-top: 20px; margin-left: 560px;">
     <h1>{{serviciosGYM.nombre}}</h1>
 </div>
 <br>
 <br>
-<div>
+<div style="margin-left: 600px;">
     @for (servicio of serviciosGYM.servicios; track servicio) {
         <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  SERVICIOS DISPONIBLES
-                </div>
+            <div class="card" style="width: 18rem; background: linear-gradient(rgba(55, 55, 67, 0.748), rgb(0, 115, 255)); border-radius: 2%; padding: 15px;">
+                <div class="card-header"><b>
+                  SERVICIO DISPONIBLE
+                </b></div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">{{servicio.nombre}}</li>
+                  <li class="list-group-item"><i><u>{{servicio.nombre}}</u></i></li>
                   <li class="list-group-item">{{servicio.descripcion}}</li>
                   <li class="list-group-item">{{servicio.Duracion}}</li>
                 </ul>
