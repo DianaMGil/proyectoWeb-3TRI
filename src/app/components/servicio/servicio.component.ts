@@ -1,27 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Servicios } from '../../common/servicios';
-import { DataServiciosService } from '../../data/data-Servicios.service';
-import e from 'express';
+import { DataService } from '../../data/data.service';
+import { Servicio, Serviciosinter } from '../../common/serviciosinter';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-servicio',
   standalone: true,
   imports: [RouterLink],
   templateUrl: './servicio.component.html',
-  styleUrl: './servicio.component.css'
 })
 export class ServicioComponent implements OnInit {
-  serviciosGYM!: Servicios;
-  constructor (private dataServicios: DataServiciosService){}
+  serviciosGYM!: Serviciosinter;
+  constructor (private dataService:DataService){}
 
   ngOnInit(): void {
     this.loadServicios();
   }
   loadServicios(){
-    this.dataServicios.getobtenerServicios().subscribe(
+    this.dataService.getServicios().subscribe(
       {
-        next: (data) =>{
+        next: (data: any) =>{
           this.serviciosGYM = data
         },
         error: err =>{

@@ -1,8 +1,27 @@
-<div class="container" style="margin-top: 900px;">
-    <div class="row">
-        <div class="col-12">
-            <h2>{{serviciosGYM.servicios.}}</h2>
-        </div>
-    </div>
+<br>
+<br>
+<br>
+<br>
+<div style="margin-top: 20px;">
+    <h1>{{serviciosGYM.nombre}}</h1>
 </div>
-<p>hfbyrivhnosklmv,proèrpojgoiwej</p>
+<br>
+<br>
+<div>
+    @for (servicio of serviciosGYM.servicios; track servicio) {
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                  SERVICIOS DISPONIBLES
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">{{servicio.nombre}}</li>
+                  <li class="list-group-item">{{servicio.descripcion}}</li>
+                  <li class="list-group-item">{{servicio.Duracion}}</li>
+                </ul>
+              </div>
+        </div>
+        <br>
+        <br>
+    }
+</div>

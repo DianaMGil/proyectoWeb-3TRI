@@ -1,6 +1,4 @@
 {
-    "gimnasio": {
-
       "nombre": "Marva Sport Center",
       "servicios": [
         {
@@ -34,10 +32,6 @@
             "Duracion": "30-60 min"
         }
       ]
-
-
-
-    }
   }
   
   
