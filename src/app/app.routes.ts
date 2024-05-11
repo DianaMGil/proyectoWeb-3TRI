@@ -3,9 +3,10 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ServiciosComponent } from './components/servicios/servicios.component';
+import { ServicioComponent } from './components/servicio/servicio.component'; 
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { InstalacionesComponent } from './components/instalaciones/instalaciones.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 export const routes: Routes = [
 
@@ -14,8 +15,8 @@ export const routes: Routes = [
     {path:'instalaciones', title:'Instalaciones', component:InstalacionesComponent},
 
     {path:'formulario', title:'Formulario', component:FormularioComponent},
+    {path:'servicio', title:'Servicio', component:ServicioComponent},
 
-    
     {path:'', redirectTo:'/home', pathMatch:'full'},
 
     {path:'**', title:'PAGE NOT FOUND', component:PageNotFoundComponent}

@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Servicios } from '../../common/servicios';
-import { DataServiciosService } from '../../data/data-Servicios.service';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-
+import { Servicio } from '../../common/serviciosI';
+import { DataService } from '../../data/data.service';
 
 @Component({
   selector: 'app-servicios',
@@ -18,10 +17,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class ServiciosComponent implements OnInit{
 
   //INISTANCIAS OBJETO PARA USARLO EN LA FUNCION loadServicios
-  servicios!: Servicios
+  servicios!: Servicio;
 
 //comunicar con data.service
-  constructor(private dataService:DataServiciosService){}
+  constructor(private dataService:DataService ){}
 
   //crear método OnInit para que funcione bien esta interfaz/propiedad
   ngOnInit(): void{
@@ -34,7 +33,7 @@ export class ServiciosComponent implements OnInit{
   loadServicios()
   {
     //LLAMAR método creado en data.service (getObteneServicios// .subscribe < adquiere los datos
-    this.dataService.getobtenerServicios().subscribe(
+    this.dataService.getServicios().subscribe(
       {
         next: (data) =>
           {
@@ -56,12 +55,5 @@ export class ServiciosComponent implements OnInit{
       }
     )
   }
-
-
-  
-
-   
-    
-  
 
 }
