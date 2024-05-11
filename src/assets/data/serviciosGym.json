@@ -5,33 +5,33 @@
       "servicios": [
         {
           "nombre": "Entrenamiento Personal",
-          "descripcion": "Sesiones individuales de entrenamiento",
-          "precio": "Desde 25€"
+          "descripcion": "Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura.",
+          "Duracion": "30-60 min"
         },
         {
-          "nombre": "Entrenamiento personal en Grupo Reducido",
-          "descripcion": "Sesiones de entrenamiento con un máximo de 4 personas",
-          "precio": "Desde 16€ por sesión"
-        },
-        {
-          "nombre": "Entrenamientos grupales",
+          "nombre": "Training",
           "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
-          "precio": "Desde 10€ por clase "
+          "Duracion": "30-60 min"
+        },
+        {
+          "nombre": "MIT",
+          "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
+          "Duracion": "30-60 min"
         },
         {
           "nombre": "Fisioterapia",
           "descripcion": "Rehabilitación, Readaptación, tratamiento del dolor o Ejercicio terapeutico ",
-          "precio": "Desde 25€ por sesión"
+          "Duracion": "30-60 min"
         },
         {
             "nombre": "Nutrición",
             "descripcion": "Menus semanales, valoración alimentación",
-            "precio": "30€ por sesión"
+            "Duracion": "30-60 min"
         },
         {
             "nombre": "Acceso Libre",
             "descripcion": "",
-            "precio": "7€ por acceso"
+            "Duracion": "30-60 min"
         }
       ]
 
