@@ -23,6 +23,9 @@ export class HomeComponent  {
 
 
 constructor() { }
+scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 
 

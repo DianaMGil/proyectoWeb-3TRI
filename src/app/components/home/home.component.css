@@ -19,15 +19,36 @@
     margin-bottom: 3em;
 }
 
+/* CUSTOMIZE el SERVICIOS DESTACADOS
+----------------------------------------------- */
+.display-5.fw-bold{
+    color: black;
+   
+
+
+}
+.btn.btn-primary.btn-lg.px-4.me-sm-3{
+    background-color: #1E277C;
+   
+}
+a{
+    color: #F2F2F2;
+
+}
 
 /* CUSTOMIZE THE CAROUSEL
 ---
 .----------------------------------------------- */
+
+.carousel-captio.d-none.d-md-block{
+    font-weight: 800;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 .carousel-inner.carousel-fade.carousel-dark h5{
 
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color: blue;
+    
     
 
 }
