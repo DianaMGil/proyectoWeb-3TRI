@@ -23,7 +23,11 @@
 /* CUSTOMIZE THE CAROUSEL
 ---
 .----------------------------------------------- */
-.carousel-serviciosdestacados{
+.carousel-inner.carousel-fade.carousel-dark h5{
 
-    margin-bottom: 3em;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: blue;
+    
+
 }

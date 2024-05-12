@@ -1,63 +1,49 @@
 {
-<<<<<<< HEAD
-  "hash": "43c19588",
-  "configHash": "29c531e2",
-  "lockfileHash": "a8c2a4bb",
-  "browserHash": "c7c8be6b",
-=======
-  "hash": "4a73fdb9",
-  "configHash": "b5aacda8",
-  "lockfileHash": "a8c2a4bb",
-  "browserHash": "854bc659",
->>>>>>> 01733fa560ac4070944d2c43a885eee43b8a4542
+  "hash": "ef666ba4",
+  "configHash": "7d310d4c",
+  "lockfileHash": "850cc348",
+  "browserHash": "68264b34",
   "optimized": {
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-<<<<<<< HEAD
-      "fileHash": "ff0a14d0",
-=======
-      "fileHash": "1a5638c5",
->>>>>>> 01733fa560ac4070944d2c43a885eee43b8a4542
+      "fileHash": "c63936bd",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-<<<<<<< HEAD
-      "fileHash": "5ae672cf",
-=======
-      "fileHash": "a36ba3e2",
->>>>>>> 01733fa560ac4070944d2c43a885eee43b8a4542
+      "fileHash": "d209f693",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-<<<<<<< HEAD
-      "fileHash": "2c4c51ba",
-=======
-      "fileHash": "a6ac5b5a",
->>>>>>> 01733fa560ac4070944d2c43a885eee43b8a4542
+      "fileHash": "b942f62b",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-<<<<<<< HEAD
-      "fileHash": "4a11044e",
-=======
-      "fileHash": "e453f0a2",
->>>>>>> 01733fa560ac4070944d2c43a885eee43b8a4542
+      "fileHash": "46f37b63",
+      "needsInterop": false
+    },
+    "ngx-bootstrap/carousel": {
+      "src": "../../../../../node_modules/ngx-bootstrap/carousel/fesm2022/ngx-bootstrap-carousel.mjs",
+      "file": "ngx-bootstrap_carousel.js",
+      "fileHash": "7c1bd3c4",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CI5NOUYZ": {
-      "file": "chunk-CI5NOUYZ.js"
+    "chunk-6LN224JG": {
+      "file": "chunk-6LN224JG.js"
     },
-    "chunk-HXACIWX5": {
-      "file": "chunk-HXACIWX5.js"
+    "chunk-T2EEQRVI": {
+      "file": "chunk-T2EEQRVI.js"
+    },
+    "chunk-IHBE32P4": {
+      "file": "chunk-IHBE32P4.js"
     },
     "chunk-7XNSWP76": {
       "file": "chunk-7XNSWP76.js"

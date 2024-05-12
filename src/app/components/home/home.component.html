@@ -66,135 +66,108 @@
 </section>
 
 <!-- CARROUSEL SERVICIOS class="d-block w-50"  class=" img-fluid" -->
-<!-- <section>
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-         
-            
-          <div class="carousel-item active" data-bs-interval="10000">
-            <div class="d-flex align-items-center justify-content-center">
-                <img src= ""  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                 <h5>NUTRICIÓN</h5>
-                 <p></p>
-                </div>
-            </div>
-          </div>
-
-
-          <div class="carousel-item" data-bs-interval="2000">
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/img/servicios/nutri1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                 <h5>Fisioterapia</h5>
-                <p></p>
-            </div>
-        </div>
-        </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
 
 
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    
-</section> -->
 
-<!-- PRUEBA CAROUSEL  -->
-<div class="carousel-serviciosdestacados">
-  <div id="carouselExampleSlidesOnly" class="carousel slide pointer-event" data-bs-ride="carousel">
-    <div class="carousel-inner">
+ <br>
 
+ <div class="bg-opacity-80 bg-secondary text-white">
+  <div class="d-flex justify-content-center">
+  <h2> Servicios Destacados</h2>
 
+  
+</div>
+ </div>
+
+<!-- Carousel -->
+
+    <div class="container py-4">
       
+      <!-- se le da un ID AL CAROUSEL >>llamarlo en  JavaScript clase carousel  data-bs-slide="carousel"-->
+      <div id="slider-serviciosHome" class="carousel slide" data-bs-ride="carousel"> 
 
+        <div class="carousel-indicators">
+          <button class="active" data-bs-target="#slider-serviciosHome" data-bs-slide-to="0"></button>
+          <button data-bs-target="#slider-serviciosHome" data-bs-slide-to="1"></button>
+          <button data-bs-target="#slider-serviciosHome" data-bs-slide-to="2"></button>
+          <button data-bs-target="#slider-serviciosHome" data-bs-slide-to="3"></button>
+        </div>
 
+          <!-- EMPIEZA CAROUSEL -- efecto al> carousel-fade -->
+        <div class="carousel-inner carousel-fade">
 
-      <div class="carousel-item data-bs-interval=1000">
-        <h1 class="">FISIOTERAPIA </h1>
-        <h3>
-          Diagnóstico personalizado, ejercicio terapéutico, educación al paciente, guía de entrenamientos</h3>
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>FISIOTERAPIA</title>
-          <image xlink:href="assets\img\servicios\fisio2.png" width="100%" height="100%" />
-        </svg>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <!-- -active primera imagen del carousel por dfecto y velocidad del carousel -->
+          <div class="carousel-item active" data-bs-interval="3000" >
+            <img class="d-block w-100" src="assets\img\servicios\fisio2.png" alt="Fisioterapia">
+             <!-- titulo- texto imagen  --ojo claseb indica que según tamaño pantalla texto aparace o no  -->
+              <div class="carousel-caption d-none d-md-block">
+                <h1>FISIOTERAPIA</h1>
+                <p>Recupera tu bienestar, y movilidad, profesionales de rehabilitación física</p>
+              </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100"  src="assets/img/servicios/ePersonal3.png" alt="ePersonal">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>ENTRENAMIENTO PERSONAL</h1>
+              <p> Adaptado a tus necesidades y objetivos</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="assets\img\servicios\nutri4.jpg" alt="nutricion">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>NUTRICIÓN</h1>
+              <p>Mejora tus hábitos alimenticios, optimiza tu energía y vitalidad</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="assets\img\servicios\Grupales.jpg" alt="nutricion">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 >CLASES GRUPALES</h1>
+              <p> Alcanza tus objetivos de bienestar en compañia</p>
+            </div>
+          </div>
+        </div>
+
+          <!--CONTROLES CAROUSEL POR USUARIO -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider-serviciosHome" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span> 
         </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider-serviciosHome" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
     </div>
 
-      <div class="carousel-item data-bs-interval=1000">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>ENTRENAMIENTO PERSONAL</title>
-          <image xlink:href="assets/img/servicios/ePersonal3.png" width="100%" height="100%" />
-        </svg>
-      </div>
+    <div class="container px-4 mb-">
 
-      <div class="carousel-item active data-bs-interval=1000">
-        <h3>Evaluación estado nutricional
-          Estudio antropométrico
-          Planes de alimentación
-          Bienestar digestivo
+      <div class="row g-2">
 
-        </h3>
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>NUTRICIÓN</title>
-          <image xlink:href="assets\img\servicios\Nutri3.jpg" width="100%" height="100%" />
-        </svg>
-      </div>
-
-      <div class="carousel-item data-bs-interval=1000">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>ENTRENAMIENTOS GRUPALES</title>
-            <image xlink:href="assets\img\servicios\Grupales.jpg" width="100%" height="100%" />
-          </svg>
+        <div class="col-6">
+          
+            <img class="img-fluid rounded" src="assets\img\centro\pista.png" class="col-6" alt="...">
+           
         </div>
+
+       
+        <div class="col-6">
+            <img class="img-fluid rounded" src="assets\img\centro\salaGris.png" class="col-6" alt="...">
+         
         
-        <div class="carousel-item data-bs-interval=1000">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>ACCESO  LIBRE</title>
-              <image xlink:href="assets\img\servicios\pesosLibres1.png" width="100%" height="100%" />
-            </svg>
+
         </div>
+ 
 
      </div>
-  </div>
-</div>
 
-<!-- FOTOS GOOGLE -->
+    </div>
 
-<!-- <section>
-<div class="google"><iframe
-  src="https://www.google.com/maps/embed?pb=!4v1700570586640!6m8!1m7!1sCAoS
-  LEFGMVFpcFB1UkdhZHJodnNBaDdESGhLd0t4a2ZBcWd6UWtGY0pUbUpmLXgt!2m2!1
-  d39.461126996167!2d-0.38275532086678!3f282.39!4f0!5f0.7820865974627469"
-  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</section> -->
-
-
+  
+  
 
 
 
