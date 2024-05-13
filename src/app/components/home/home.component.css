@@ -21,6 +21,9 @@
 
 /* CUSTOMIZE el SERVICIOS DESTACADOS
 ----------------------------------------------- */
+.aboutUs{
+    margin-bottom: 4rem;
+}
 .display-5.fw-bold{
     color: black;
    
@@ -36,9 +39,19 @@ a{
 
 }
 
+/* aplica texto justificado al texto del <p> */
+.text-justify { 
+    text-align: justify;
+  }
+
+
+
 /* CUSTOMIZE THE CAROUSEL
 ---
 .----------------------------------------------- */
+.carousel{
+    margin-bottom: 4rem;
+}
 
 .carousel-captio.d-none.d-md-block{
     font-weight: 800;
@@ -48,7 +61,5 @@ a{
 
     font-weight: 800;
     font-family: 'Open Sans Condensed', sans-serif;
-    
-    
 
 }

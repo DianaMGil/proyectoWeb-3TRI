@@ -68,24 +68,27 @@
 <!-- QUIENES SOMOS  -->
 
 
+<section class="aboutUs">
+ <div class ="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
 
- <div class="px-4 py-5 my-2 text-center">
+    <h1 class="display-5 fw-bold px-2 py-2 my-2 text-center"> Transforma tu salud y rendimiento</h1>
+    
+    <div class="col-lg-6 mx-auto text-justify ">
+      <p class="lead mb-4" style="margin-top:2rem; margin-bottom: 2rem;">OFRECEMOS SERVICIO DE FISIOTERAPIA DEPORTIVA, ENTRENAMIENTO PERSONAL, CLASES GRUPALES  Y NUTRICIÓN. <br> <br>
+        En <strong>Marva Sport Center </strong> hemos puesto toda nuestra experiencia y recursos en el diseño de instalaciones y programas de rehabilitación y acondicionamiento físico, bajo la supervisión de profesionales cualificados. 
+        Vamos a acompañarte desde el primer minuto, a que logres tus objetivos de bienestar o estilo de vida más salaudable y lleno de vitalidad.  </p>
 
-  <h1 class="display-5 fw-bold"> Transforma tu salud y rendimiento con nuestros servicios.</h1>
-  
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4">SERVICIO DE FISIOTERAPIA DEPORTIVA, ENTRENAMIENTO PERSONAL Y NUTRICIÓN <br> <br>
-      En <strong>Marva Sport Center </strong> hemos puesto toda nuestra experiencia y recursos en el diseño de instalaciones y programas de rehabilitación y acondicionamiento físico, bajo la supervisión de profesionales cualificados. 
-      <br>Vamos a acompañarte desde el primer minuto, a que logres tus objetivos de bienestar o estilo de vida más salaudable y lleno de vitalidad.  </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-2">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            <a routerLink="/servicios" (click)="scrollToTop()"> <strong> VER SERVICIOS  DESTACADOS</strong></a>
+          </button>
+        </div>
 
-       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-2">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
-          <a routerLink="/servicios" (click)="scrollToTop()"> <strong>SERVICIOS  DESTACADOS</strong></a>
-        </button>
-       </div>
-
-  </div>
+    </div>
+    </div>
 </div>
+</section>
 
 
 
@@ -104,8 +107,8 @@
  </div> -->
 
 <!-- Carousel -->
-
-    <div class="container py-4">
+<section class="carousel">
+  <div class="container px-4 m4">
       
       <!-- se le da un ID AL CAROUSEL >>llamarlo en  JavaScript clase carousel  data-bs-slide="carousel"-->
       <div id="slider-serviciosHome" class="carousel slide" data-bs-ride="carousel"> 
@@ -122,7 +125,7 @@
 
           <!-- -active primera imagen del carousel por dfecto y velocidad del carousel -->
           <div class="carousel-item active" data-bs-interval="3000" >
-            <img class="d-block w-100" src="assets\img\servicios\fisio2.png" alt="Fisioterapia">
+            <img class="d-block w-100" src="assets\img\servicios\fisio2.png"  alt="Fisioterapia">
              <!-- titulo- texto imagen  --ojo clase d-none>> indica que según tamaño pantalla texto aparace o no  -->
               <div class="carousel-caption d-none d-md-block">
                 <h1 >FISIOTERAPIA</h1>
@@ -131,7 +134,7 @@
           </div>
 
           <div class="carousel-item" data-bs-interval="3000">
-            <img class="d-block w-100"  src="assets/img/servicios/ePersonal3.png" alt="ePersonal">
+            <img class="d-block w-100"  src="assets/img/servicios/ePersonal3.png"  alt="ePersonal">
             <div class="carousel-caption d-none d-md-block">
               <h1>ENTRENAMIENTO PERSONAL</h1>
               <p> Adaptado a tus necesidades y objetivos</p>
@@ -165,29 +168,50 @@
 
       </div>
     </div>
+</section >
 
-    <div class="container px-4 mb-">
+<div class="p-5 m4 bg-light rounded-3">
+      <div class="flex-grow-1 ms-3">
+        <div class="container">
 
-      <div class="row g-2">
+          <div class="row">
+            <div class="col">
+              <h1 class="display-5 fw-bold text-center">Nuestras instalaciones</h1>
+            </div>
+          </div>
+    <div class="fotos">
+          <div class="row gy-4 gx-4">
+            <div class="col md-4">
+              <img src="assets\img\centro\entrada2_.png" alt="Foto 2" class="img-fluid">
+            </div>
 
-        <div class="col-6">
-          
-            <img class="img-fluid rounded" src="assets\img\centro\pista.png" class="col-6" alt="...">
-           
-        </div>
+            <div class="col md-4">
+              <img src="assets\img\centro\salaGris.png" alt="Foto 2" class="img-fluid">
+           </div>
 
-       
-        <div class="col-6">
-            <img class="img-fluid rounded" src="assets\img\centro\salaGris.png" class="col-6" alt="...">
-         
-        
+           <div class="col md-4">
+            <img src="assets\img\centro\salaPista2.jpg" alt="Foto 2" class="img-fluid">
+         </div>
 
-        </div>
- 
-
-     </div>
-
+         <div class="col md-4">
+          <img src="assets\img\centro\maquinas.png" alt="Foto 2" class="img-fluid">
+       </div>
+      </div>
     </div>
+      
+      
+        
+        <button class="btn btn-outline-light" type="button">Example button</button>
+      </div>
+      </div>
+    </div>
+  
+
+
+   
+
+
+
 
   
   
