@@ -20,5 +20,9 @@ Cambiar el color de los controles de navegación
     background-color: #007bff; /* Cambiar el color según tu diseño */
     z-index: 999;
   }
+  .btn.btn-primary{
+    align-items: center;
+    justify-content:center;
+  }
 
   
