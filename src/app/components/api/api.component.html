@@ -1,1 +1,60 @@
 <p>api works!</p>
+
+<div class="content-fluid  m-4">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h1 class="display-5 fw-bold px-2 py-2 my-2 text-center">Vente disfrazado de alguno de estos personajes y obtén 20% descuento en nuestras tarifas</h1>
+      </div>
+      <!-- Paginación -->
+       <!-- <div class="col-12">
+              <button class="btn btn-primary mx-3  my-3 p-2" (click)="CambiaPagina('Anterior')">Anterior</button>
+              <button class="btn btn-primary mx-3  my-3 p-2" (click)="CambiaPagina('Primera')">Primera</button>
+              <button class="btn btn-primary mx-3  my-3 p-2" (click)="CambiaPagina('Ultima')">Última</button>
+              <button class="btn btn-primary mx-3  my-3 p-2" (click)="CambiaPagina('Siguiente')">Siguiente</button>    
+          </div>  -->
+      <!-- <div class="div-12">
+        <button class="btn btn-secondary mx-3 my-3 p-2" (click)="CambiaPagina('Anterior')" >Anterior</button>
+        <button class="btn btn-secondary mx-3 my-3 p-2" (click)="CambiaPagina('Primera')" >1</button>
+        <button class="btn btn-secondary mx-3 my-3 p-2">2</button>  //Agregar la de 2
+        <button class="btn btn-secondary mx-3 my-3 p-2">...</button>
+        <button class="btn btn-secondary mx-3 my-3 p-2" (click)="CambiaPagina('Penultima')">
+          {{ this.personajesRyM.info.pages - 1 }}
+        </button>
+        <button class="btn btn-secondary mx-3 my-3 p-2" (click)="CambiaPagina('Ultima')">
+          {{ this.personajesRyM.info.pages }}
+        </button>
+        <button class="btn btn-secondary mx-3 my-3 p-2" (click)="CambiaPagina('Siguiente')">Siguiente</button>
+      </div> -->
+    </div>
+    <div class="row justify-content-space-around">
+      @for (personaje of personajesRyM.results; track personaje) {
+      <div class="col-3">
+        <div
+          class="card"
+          style="width: 18rem"
+          
+        >
+          <img
+            src="{{ personaje.image }}"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ personaje.name }}</h5>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ personaje.gender }}</li>
+            <li class="list-group-item">{{ personaje.origin.name }}</li>
+           
+          </ul>
+        </div>
+      </div>
+      <br>
+      }
+    </div>
+  </div>
+
+  <!-- [routerLink]="'/personajeONE/' + personaje.id" -->
+  
