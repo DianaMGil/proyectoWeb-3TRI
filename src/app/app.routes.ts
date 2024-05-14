@@ -7,6 +7,7 @@ import { ServicioComponent } from './components/servicio/servicio.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { InstalacionesComponent } from './components/instalaciones/instalaciones.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
+import { ApiComponent } from './components/api/api.component';
 
 export const routes: Routes = [
 
@@ -16,6 +17,7 @@ export const routes: Routes = [
 
     {path:'formulario', title:'Formulario', component:FormularioComponent},
     {path:'servicio', title:'Servicio', component:ServicioComponent},
+    {path:'api', title:'API', component:ApiComponent},
 
     {path:'', redirectTo:'/home', pathMatch:'full'},
 

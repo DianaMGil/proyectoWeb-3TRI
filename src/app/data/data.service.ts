@@ -13,4 +13,7 @@ export class DataService {
   getServicios(): Observable<Servicio>{
     return this.http.get<Servicio>('./assets/data/serviciosGym.json')
   }
+
+
+  
 }

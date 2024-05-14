@@ -27,6 +27,7 @@ scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// , CarouselModule >>> clase que da error a LUIS Y DAVID
 
 //  CarouselModule >>> por si hay que ppnerlo de nuevo
 
