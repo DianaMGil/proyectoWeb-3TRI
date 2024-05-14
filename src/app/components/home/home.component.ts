@@ -29,7 +29,7 @@ scrollToTop() {
 
 // , CarouselModule >>> clase que da error a LUIS Y DAVID
 
-
+//  CarouselModule >>> por si hay que ppnerlo de nuevo
 
 
 
