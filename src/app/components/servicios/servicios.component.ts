@@ -15,6 +15,9 @@ import { DataService } from '../../data/data.service';
 
 //implementar OnInit
 export class ServiciosComponent implements OnInit{
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   //INISTANCIAS OBJETO PARA USARLO EN LA FUNCION loadServicios
   servicios!: Servicio;
