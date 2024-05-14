@@ -4,7 +4,7 @@ import { FormularioComponent } from '../formulario/formulario.component';
 import { FooterComponent } from '../footer/footer.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import bootstrap from '../../../main.server'; 
-import { CarouselModule } from 'ngx-bootstrap/carousel';
+// import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 // import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
@@ -15,7 +15,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent,FormularioComponent,FooterComponent,RouterLink,RouterLinkActive, CarouselModule],
+  imports: [NavbarComponent,FormularioComponent,FooterComponent,RouterLink,RouterLinkActive],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -28,7 +28,7 @@ scrollToTop() {
 }
 
 
-
+//  CarouselModule >>> por si hay que ppnerlo de nuevo
 
 
 
