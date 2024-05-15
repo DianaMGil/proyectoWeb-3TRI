@@ -6,18 +6,19 @@
     <h1>{{serviciosGYM.nombre}}</h1>
 </div> -->
 <br>
+<h1 style="text-align: center;"><b>AQUI PUEDES ENCONTRAR NUESTROS SERVICIOS UN POCO MAS DETALLADOS</b></h1>
 <br>
-<div style="margin-left: 600px;">
+<div class="fondocartas">
     @for (servicio of serviciosGYM.servicios; track servicio) {
-        <div class="col-3">
+        <div class="col-3" style="margin-bottom: 20px; margin-left: 588px;">
             <div class="card" style="width: 18rem; background: linear-gradient(rgba(55, 55, 67, 0.748), rgb(0, 115, 255)); border-radius: 2%; padding: 15px;">
                 <div class="card-header"><b>
                   SERVICIO DISPONIBLE
                 </b></div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><i><u>{{servicio.nombre}}</u></i></li>
-                  <li class="list-group-item">{{servicio.descripcion}}</li>
-                  <li class="list-group-item">{{servicio.Duracion}}</li>
+                  <li class="list-group-item"><i><u><b>{{servicio.nombre}}</b></u></i></li>
+                  <li class="list-group-item"><b>{{servicio.descripcion}}</b></li>
+                  <li class="list-group-item"><b>{{servicio.Duracion}}</b></li>
                 </ul>
               </div>
         </div>
