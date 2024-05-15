@@ -1,15 +1,29 @@
-/* Css Datos Contacto */
+/* Css OFERTA  */
 
 .OfertaEspecial {
-    background-color: rgb(67, 68, 73);
+    background-image: url('/assets/img/varias/start2Oferta2.png');
+    background-size:cover; /* Para cubrir todo el contenedor */
+    background-position: center; /* Para centrar imagen */
+    border-radius: 10px; /* Ajusta el redondeo de las esquinas según sea necesario */  
     text-align: center;
     color: white;
-    padding: 5em;
+    color: #007bff;
+    padding: 25px; /* Ajusta el relleno según sea necesario */
+
+       
+       
+        
+        
+      
 }
 
 .OfertaEspecial h1 {
     font-size: 4em;
 }
+.OfertaEspecial p{
+    color: white;
+
+} 
 
 .Mensualidad {
     font-size: 2em;
@@ -19,6 +33,8 @@
     font-size: 1.5em;
 }
 
+
+/* Css CONTACTO  */
 .DatosContacto {
     background-color: white;
 }
