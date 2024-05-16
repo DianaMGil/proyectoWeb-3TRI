@@ -11,6 +11,11 @@ import { Router } from '@angular/router';
   templateUrl: './servicio.component.html',
 })
 export class ServicioComponent implements OnInit {
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
   serviciosGYM!: Serviciosinter;
   constructor (private dataService:DataService){}
 

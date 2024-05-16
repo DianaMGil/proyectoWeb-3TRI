@@ -3,7 +3,7 @@
       "servicios": [
         {
           "nombre": "Entrenamiento Personal",
-          "descripcion": "Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura.",
+          "descripcion": "Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos.",
           "Duracion": "30-60 min"
         },
         {
