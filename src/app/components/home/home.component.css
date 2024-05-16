@@ -22,7 +22,7 @@
 /* CUSTOMIZE el SERVICIOS DESTACADOS
 ----------------------------------------------- */
 .aboutUs{
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
 }
 .display-5.fw-bold{
     color: black;
@@ -50,7 +50,7 @@ a{
 ---
 .----------------------------------------------- */
 .carousel{
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
 }
 
 .carousel-captio.d-none.d-md-block{

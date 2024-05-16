@@ -1,4 +1,10 @@
 Cambiar el color de los controles de navegación
+
+.col.m-4{
+  margin: 4em;
+}
+
+
   .carousel-control-prev,
   .carousel-control-next {
     color: #fff;
@@ -24,5 +30,25 @@ Cambiar el color de los controles de navegación
     align-items: center;
     justify-content:center;
   }
+
+  section{
+    margin-top: 5em;
+  }
+
+  .moreInfo p{
+    margin-top: 1em;
+    font-size: 1.5em;
+    justify-content: center;
+    padding: 2%;
+    /*margin: 0 auto;  Centrar el contenedor horizontalmente */
+    text-align: justify;
+}
+#btnVer{
+  font-size: 1em;
+  background-color: #1E277C;
+  
+}
+
+
 
   

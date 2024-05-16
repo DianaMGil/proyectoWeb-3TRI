@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { Servicio } from '../../common/serviciosI';
 import { DataService } from '../../data/data.service';
+import { ServiciosMAS } from '../../common/servicios-mas';
 
 @Component({
   selector: 'app-servicios',
@@ -20,7 +21,7 @@ export class ServiciosComponent implements OnInit{
   }
 
   //INISTANCIAS OBJETO PARA USARLO EN LA FUNCION loadServicios
-  servicios!: Servicio;
+  serviciosGym2 ! : ServiciosMAS;
 
 //comunicar con data.service
   constructor(private dataService:DataService ){}
@@ -38,10 +39,10 @@ export class ServiciosComponent implements OnInit{
     //LLAMAR método creado en data.service (getObteneServicios// .subscribe < adquiere los datos
     this.dataService.getServicios().subscribe(
       {
-        next: (data) =>
+        next: (data:any) =>
           {
              console.log(data)
-             this.servicios=data //en este objeto se guarda los datos que se obtienen
+             this.serviciosGym2 = data //en este objeto se guarda los datos que se obtienen
           },
         
             //si llega un  resultado error >> sale el error que ha sido

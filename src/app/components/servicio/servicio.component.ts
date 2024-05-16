@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { DataService } from '../../data/data.service';
 import { Servicio, Serviciosinter } from '../../common/serviciosinter';
 import { Router } from '@angular/router';
+import { ServiciosMAS } from '../../common/servicios-mas';
 
 @Component({
   selector: 'app-servicio',
@@ -11,7 +12,8 @@ import { Router } from '@angular/router';
   templateUrl: './servicio.component.html',
 })
 export class ServicioComponent implements OnInit {
-  serviciosGYM!: Serviciosinter;
+  serviciosGYM!: ServiciosMAS;
+  
   constructor (private dataService:DataService){}
 
   ngOnInit(): void {

@@ -1,37 +1,48 @@
 {
-      "nombre": "Marva Sport Center",
       "servicios": [
         {
+          "nombre": "Fisioterapia Deportiva",
+          "imagen": "assets/img/servicios/fisio.png",
+          "tittle": "Recupera tu bienestar, y movilidad, profesionales de rehabilitación física",
+          "Duracion": "30-75 min",
+          "Descripcion":"Recupera tu bienestar con nuestros tratamientos personalizados de fisioterapia de rehabilitación, readaptación, tratamiento del dolor y prevención de lesiones. Equipo experto ofrece técnicas como la punción seca, EPI, Neuromodulación percutánea, la electroestimulación transcraneal."
+        },
+        {
           "nombre": "Entrenamiento Personal",
-          "descripcion": "Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura.",
-          "Duracion": "30-60 min"
+          "imagen": "assets/img/servicios/ePersonal.png",
+          "tittle": " Adaptado a tus necesidades y objetivos",
+          "Duracion": "30-75 min",
+          "Descripcion":"Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura."
         },
         {
-          "nombre": "Training",
-          "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
-          "Duracion": "30-60 min"
+          "nombre": "Clase Grupal TRAINING",
+          "imagen": "./assets/img/servicios/grupales.jpg",
+          "tittle": "ALcanza tus objetivos de Movilidad, Fuerza, Mejora Cardiovascular y/o Funcional",
+          "Duracion": "30-60 min",
+          "Descripcion":""
         },
         {
-          "nombre": "MIT",
-          "descripcion": "Clases grupales de movilidad, fuerza, cardiovascular y/o funcional",
-          "Duracion": "30-60 min"
+          "nombre": "Clase Grupal MIT",
+          "imagen": "./assets/img/servicios/MIT.png",
+          "tittle": "Alcanza tus objetivos Cardiovasculares y de Resistencia Aeróbica",
+          "Duracion": "30-60 min",
+          "Descripcion":""
         },
-        {
-          "nombre": "Fisioterapia",
-          "descripcion": "Rehabilitación, Readaptación, tratamiento del dolor o Ejercicio terapeutico ",
-          "Duracion": "30-60 min"
-        },
+      
         {
             "nombre": "Nutrición",
-            "descripcion": "Menus semanales, valoración alimentación",
-            "Duracion": "30-60 min"
+            "imagen": "./assets/img/servicios/nutri4.jpg",
+            "tittle": "Mejora tus hábitos alimenticios, optimiza tu energía y vitalidad",
+            "Duracion": "30-90 min",
+            "Descripcion":"Aprende a comer con nuestros profesionale sd ela nutrición y con Menus semanales o ¿quieres saber si lo comes es lo que deberías? contrata el servicio de valoración alimentación"
         },
         {
             "nombre": "Acceso Libre",
-            "descripcion": "Acceso total a todas nuestras máquinas y material para trabajar tus ejercicios por libre",
-            "Duracion": "30-60 min"
+            "imagen": "./assets/img/servicios/pesosLibres1.png",
+            "tittle": "Acceso total a todas nuestras máquinas y material para trabajar tus rutinas de entrenamiento por libre",
+            "Duracion": "Ilimitado",
+            "Descripcion":""
         }
       ]
   }
-  
   

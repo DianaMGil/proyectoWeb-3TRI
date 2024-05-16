@@ -1,0 +1,50 @@
+{
+    "servicios": [
+      {
+        "nombre": "Fisioterapia Deportiva",
+        "imagen": "assets/img/servicios/ePersonal.png",
+        "tittle": "Recupera tu bienestar, y movilidad, profesionales de rehabilitación física",
+        "Duracion": "30-75 min",
+        "Descripcion":"Recupera tu bienestar con nuestros tratamientos personalizados de fisioterapia de rehabilitación, readaptación, tratamiento del dolor y prevención de lesiones. Equipo experto ofrece técnicas como la punción seca, EPI, Neuromodulación percutánea, la electroestimulación transcraneal."
+      },
+      {
+        "nombre": "Entrenamiento Personal",
+        "imagen": "assets/img/servicios/ePersonal.png",
+        "tittle": "Adaptado a tus necesidades y objetivos",
+        "Duracion": "30-75 min",
+        "Descripcion":"Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura."
+      },
+      {
+        "nombre": "Clase Grupal TRAINING",
+        "imagen": "assets/img/servicios/ePersonal.png",
+        "tittle": "ALcanza tus objetivos de Movilidad, Fuerza, Mejora Cardiovascular y/o Funcional",
+        "Duracion": "30-60 min",
+        "Descripcion":""
+      },
+      {
+        "nombre": "Clase Grupal MIT",
+        "imagen": "assets/img/servicios/ePersonal.png",
+        "tittle": "Alcanza tus objetivos Cardiovasculares y de Resistencia Aeróbica",
+        "Duracion": "30-60 min",
+        "Descripcion":""
+      },
+    
+      {
+          "nombre": "Nutrición",
+          "imagen": "assets/img/servicios/ePersonal.png",
+          "tittle": "Mejora tus hábitos alimenticios, optimiza tu energía y vitalidad",
+          "Duracion": "30-90 min",
+          "Descripcion":"Aprende a comer con nuestros profesionale de la  nutrición y con Menus semanales o ¿quieres saber si lo comes es lo que deberías? contrata el servicio de valoración alimentación"
+      },
+      {
+          "nombre": "Acceso Libre",
+          "imagen": "assets/img/servicios/ePersonal.png",
+          "tittle": "Acceso total a todas nuestras máquinas y material para trabajar tus rutinas de entrenamiento por libre",
+          "Duracion": "Ilimitado",
+          "Descripcion":""
+      }
+    ]
+}
+
+ 
+  
