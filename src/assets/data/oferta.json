@@ -9,7 +9,7 @@
       },
       {
         "nombre": "Entrenamiento Personal",
-        "imagen": "assets/img/servicios/ePersonal.png",
+        "imagen": "/assets/img/servicios/ePersonal.png",
         "tittle": "Adaptado a tus necesidades y objetivos",
         "Duracion": "30-75 min",
         "Descripcion":"Nuestros entrenadores expertos diseñan programas adaptados a tus necesidades y objetivos específicos. Obtén resultados óptimos, mejora tu estado físico y alcanza tus metas de forma eficaz y segura."

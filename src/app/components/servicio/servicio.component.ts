@@ -12,8 +12,17 @@ import { ServiciosMAS } from '../../common/servicios-mas';
   templateUrl: './servicio.component.html',
 })
 export class ServicioComponent implements OnInit {
+
   serviciosGYM!: ServiciosMAS;
   
+
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
+  serviciosGYM2!: Serviciosinter;
+
   constructor (private dataService:DataService){}
 
   ngOnInit(): void {

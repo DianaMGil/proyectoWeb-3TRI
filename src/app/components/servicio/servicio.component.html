@@ -5,25 +5,46 @@
 <!-- <div style="margin-top: 20px; margin-left: 560px;">
     <h1>{{serviciosGYM.nombre}}</h1>
 </div> -->
+
 <!-- <br>
 <br> -->
 <!--  <div style="margin-left: 600px;"> -->
     <!-- @for (servicio of serviciosGYM.servicios; track servicio) {
+
+<br>
+<h1 style="text-align: center;"><b>AQUI PUEDES ENCONTRAR NUESTROS SERVICIOS UN POCO MAS DETALLADOS</b></h1>
+<br>
+<div class="p-5 m-4 bg-light rounded-3">
+  <div class="row gy-4 justify-content-space-evenly" style="margin: 20px;">
+    @for (servicio of serviciosGYM.servicios; track servicio) {
+
         <div class="col-3">
-            <div class="card" style="width: 18rem; background: linear-gradient(rgba(55, 55, 67, 0.748), rgb(0, 115, 255)); border-radius: 2%; padding: 15px;">
+            <div class="card" style="width: 18rem; background: linear-gradient(rgba(55, 55, 67, 0.748), rgb(0, 115, 255)); border-radius: 2%;">
                 <div class="card-header"><b>
                   SERVICIO DISPONIBLE
                 </b></div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><i><u>{{servicio.nombre}}</u></i></li>
-                  <li class="list-group-item">{{servicio.descripcion}}</li>
-                  <li class="list-group-item">{{servicio.Duracion}}</li>
+                  <li class="list-group-item"><i><u><b>{{servicio.nombre}}</b></u></i></li>
+                  <li class="list-group-item"><b>{{servicio.descripcion}}</b></li>
+                  <li class="list-group-item"><b>{{servicio.Duracion}}</b></li>
                 </ul>
               </div>
         </div>
         <br>
         <br>
     }
+<<<<<<< HEAD
 </div> -->
+
+
+
+    <!-- <a href="#" routerLink="/formulario" routerLinkActive="active" type="button" class="btn" style="border-radius: 0px!important;" (click)="scrollToTop()"><strong>CONTRATAR SERVICIO</strong></a> -->
+    <button routerLink="/formulario" type="submit" class="btn btn-primary">CONTRATAR SERVICIO</button>
+
+<!-- 
+</div>
+</div> -->
+
+<!-- prueba  -->
 
 
